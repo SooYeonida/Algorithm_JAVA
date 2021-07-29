@@ -11,11 +11,7 @@ public class 교육과정설계 {
         String must = in.next();
         String plan = in.next();
 
-        ArrayList<Character> arrayList = new ArrayList<>();
-        for (char c : must.toCharArray()) {
-            arrayList.add(c);
-        }
-
+    
         Queue<Character> queue = new LinkedList<>();
         for (char c : plan.toCharArray()) {
             queue.add(c);
