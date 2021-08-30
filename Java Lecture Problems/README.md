@@ -237,6 +237,7 @@
 | Part | 문제 이름 |
 |:------:|:---------:|
 | Greedy Algorithm | 최대 수입 스케쥴|
+| Greedy Algorithm | 친구인가|
 
 
 
