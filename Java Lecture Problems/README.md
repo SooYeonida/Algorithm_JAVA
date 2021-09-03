@@ -170,7 +170,7 @@
 |:------:|:---------:|
 | Recursive, Tree, Graph | 부분집합 구하기|
 | Recursive, Tree, Graph | 이진트리 레벨탐색|
-| Recursive, Tree, Graph | 송아지 찾기|
+| Recursive, Tree, Graph | [송아지 찾기](https://velog.io/@yonii/%EC%86%A1%EC%95%84%EC%A7%80-%EC%B0%BE%EA%B8%B0)|
 
 ## 2021/08/16
 
@@ -186,7 +186,7 @@
 
 | Part | 문제 이름 |
 |:------:|:---------:|
-| Recursive, Tree, Graph | 합이 같은 부분집합(아마존 인터뷰)|
+| Recursive, Tree, Graph | [합이 같은 부분집합(아마존 인터뷰)](https://velog.io/@yonii/%ED%95%A9%EC%9D%B4-%EA%B0%99%EC%9D%80-%EB%B6%80%EB%B6%84%EC%A7%91%ED%95%A9)|
 | Recursive, Tree, Graph | 바둑이 승차|
 
 ## 2021/08/19  
@@ -195,7 +195,7 @@
 |:------:|:---------:|
 | Recursive, Tree, Graph | 최대점수 구하기|
 | Recursive, Tree, Graph | 중복 순열|
-| Recursive, Tree, Graph | 동전교환|
+| Recursive, Tree, Graph | [동전교환](https://velog.io/@yonii/%EB%8F%99%EC%A0%84%EA%B5%90%ED%99%98)|
 
 ## 2021/08/21  
 
@@ -203,10 +203,10 @@
 |:------:|:---------:|
 | Recursive, Tree, Graph | 순열 구하기|
 | Recursive, Tree, Graph | 조합의 경우수(메모이제이션)|
-| Recursive, Tree, Graph | 수열 추측하기|
+| Recursive, Tree, Graph | [수열 추측하기](https://velog.io/@yonii/%EC%88%98%EC%97%B4-%EC%B6%94%EC%B8%A1%ED%95%98%EA%B8%B0)|
 | Recursive, Tree, Graph | 조합 구하기|
 | Greedy Algorithm | 씨름 선수|
-| Greedy Algorithm | 회의실 배정|
+| Greedy Algorithm | [회의실 배정](https://velog.io/@yonii/%ED%9A%8C%EC%9D%98%EC%8B%A4-%EB%B0%B0%EC%A0%95)|
 | dynamic programming | 계단오르기|
 | dynamic programming | 돌다리 건너기|
 
@@ -215,29 +215,30 @@
 
 | Part | 문제 이름 |
 |:------:|:---------:|
-| Recursive, Tree, Graph | 미로의 최단거리|
-| Recursive, Tree, Graph | 토마토|
+| Recursive, Tree, Graph | [미로 탐색](https://velog.io/@yonii/%EB%AF%B8%EB%A1%9C%ED%83%90%EC%83%89)|
+| Recursive, Tree, Graph | [미로의 최단거리](https://velog.io/@yonii/%EB%AF%B8%EB%A1%9C%EC%9D%98-%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC-%ED%86%B5%EB%A1%9C)|
+| Recursive, Tree, Graph | [토마토](https://velog.io/@yonii/%ED%86%A0%EB%A7%88%ED%86%A0)|
 
 ## 2021/08/27 
 
 | Part | 문제 이름 |
 |:------:|:---------:|
-| Recursive, Tree, Graph | 섬나라 아일랜드|
-| Recursive, Tree, Graph | 피자배달 거리(삼성 SW역량평가 기출문제)|
+| Recursive, Tree, Graph | [섬나라 아일랜드](https://velog.io/@yonii/%EC%84%AC%EB%82%98%EB%9D%BC-%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C)|
+| Recursive, Tree, Graph | [피자배달 거리(삼성 SW역량평가 기출문제)](https://velog.io/@yonii/%ED%94%BC%EC%9E%90-%EB%B0%B0%EB%8B%AC-%EA%B1%B0%EB%A6%AC)|
 
 ## 2021/08/29 
 
 | Part | 문제 이름 |
 |:------:|:---------:|
-| Greedy Algorithm | 결혼식|
+| Greedy Algorithm | [결혼식](https://velog.io/@yonii/%EA%B2%B0%ED%98%BC%EC%8B%9D)|
 
 
 ## 2021/08/30  
 
 | Part | 문제 이름 |
 |:------:|:---------:|
-| Greedy Algorithm | 최대 수입 스케쥴|
-| Greedy Algorithm | 친구인가|
+| Greedy Algorithm | [최대 수입 스케쥴](https://velog.io/@yonii/%EC%B5%9C%EB%8C%80-%EC%88%98%EC%9E%85-%EC%8A%A4%EC%BC%80%EC%A5%B4)|
+| Greedy Algorithm | [친구인가](https://velog.io/@yonii/%EC%B9%9C%EA%B5%AC%EC%9D%B8%EA%B0%80)|
 
 
 
