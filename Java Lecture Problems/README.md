@@ -251,6 +251,7 @@
 | Part | 문제 이름 |
 |:------:|:---------:|
 | Greedy Algorithm | [원더랜드(Prim)](https://velog.io/@yonii/%EC%9B%90%EB%8D%94%EB%9E%9C%EB%93%9CPrim)|
+| Greedy Algorithm | [다익스트라 알고리즘](https://velog.io/@yonii/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BCDijkstra-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)|
 
 
 
