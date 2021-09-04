@@ -251,6 +251,9 @@
 | Part | 문제 이름 |
 |:------:|:---------:|
 | Greedy Algorithm | [원더랜드(Prim)](https://velog.io/@yonii/%EC%9B%90%EB%8D%94%EB%9E%9C%EB%93%9CPrim)|
+| Greedy Algorithm | [다익스트라 알고리즘](https://velog.io/@yonii/%EB%8B%A4%EC%9D%B5%EC%8A%A4%ED%8A%B8%EB%9D%BCDijkstra-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)|
+| Dynamic Programming( | [최대 부분 증가수열(LIS)](https://velog.io/@yonii/LISLongest-Increasing-Subsequence-%EC%B5%9C%EB%8C%80-%EB%B6%80%EB%B6%84-%EC%A6%9D%EA%B0%80-%EC%88%98%EC%97%B4)|
+| Dynamic Programming( | [가장 높은 탑 쌓기(LIS 응용)](https://velog.io/@yonii/%EA%B0%80%EC%9E%A5-%EB%86%92%EC%9D%80-%ED%83%91-%EC%8C%93%EA%B8%B0)|
 
 
 
