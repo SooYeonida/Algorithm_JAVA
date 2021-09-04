@@ -240,6 +240,19 @@
 | Greedy Algorithm | [최대 수입 스케쥴](https://velog.io/@yonii/%EC%B5%9C%EB%8C%80-%EC%88%98%EC%9E%85-%EC%8A%A4%EC%BC%80%EC%A5%B4)|
 | Greedy Algorithm | [친구인가](https://velog.io/@yonii/%EC%B9%9C%EA%B5%AC%EC%9D%B8%EA%B0%80)|
 
+## 2021/09/03  
+
+| Part | 문제 이름 |
+|:------:|:---------:|
+| Greedy Algorithm | [원더랜드(Kruskal)](https://velog.io/@yonii/%EC%9B%90%EB%8D%94%EB%9E%9C%EB%93%9C%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC)|
+
+## 2021/09/04  
+
+| Part | 문제 이름 |
+|:------:|:---------:|
+| Greedy Algorithm | [원더랜드(Prim)](https://velog.io/@yonii/%EC%9B%90%EB%8D%94%EB%9E%9C%EB%93%9CPrim)|
+
+
 
 
 
