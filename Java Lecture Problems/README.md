@@ -255,7 +255,11 @@
 | Dynamic Programming( | [최대 부분 증가수열(LIS)](https://velog.io/@yonii/LISLongest-Increasing-Subsequence-%EC%B5%9C%EB%8C%80-%EB%B6%80%EB%B6%84-%EC%A6%9D%EA%B0%80-%EC%88%98%EC%97%B4)|
 | Dynamic Programming( | [가장 높은 탑 쌓기(LIS 응용)](https://velog.io/@yonii/%EA%B0%80%EC%9E%A5-%EB%86%92%EC%9D%80-%ED%83%91-%EC%8C%93%EA%B8%B0)|
 
+## 2021/09/05  
 
+| Part | 문제 이름 |
+|:------:|:---------:|
+| Dynamic Programming( | 동전교환(냅색 알고리즘)|
 
 
 
