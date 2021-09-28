@@ -4,26 +4,17 @@ import java.util.*;
 
 public class 회문문자열 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String str = in.next();
+       Scanner in = new Scanner(System.in);
+        String str = in.next().toUpperCase();
 
-        str = str.toUpperCase();
-        char[] array = str.toCharArray();
+        String reverse = new StringBuilder(str).reverse().toString();
 
-        int lt =0;
-        int rt = str.length()-1;
-
-        while(lt<rt){
-            if(array[lt] == array[rt]){
-                lt++;
-                rt--;
-            }
-            else{
-                System.out.println("NO");
-                return;
-            }
+        if(reverse.equals(str)){
+            System.out.println("YES");
         }
-        System.out.println("YES");
+        else{
+            System.out.println("NO");
+        }
     }
 
 }

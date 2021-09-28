@@ -4,31 +4,28 @@ import java.util.*;
 public class 유효한팰린드롬 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String str = in.nextLine();
+       Scanner in = new Scanner(System.in);
+        char[] arr = in.nextLine().toUpperCase().toCharArray();
 
-        str = str.toUpperCase();
-        char[] baseArray = str.toCharArray();
-        char[] compareArray = new StringBuilder(str).reverse().toString().toCharArray();
-
-        String base = "";
-        String compare = "";
-
-        for(int i=0;i<baseArray.length;i++){
-            if(Character.isAlphabetic(baseArray[i])){
-                base += baseArray[i];
+        int lt=0,rt=arr.length-1;
+        while(lt<rt){
+            if(Character.isAlphabetic(arr[lt]) && Character.isAlphabetic(arr[rt])){
+                //같은지 체크
+                if(arr[lt] != arr[rt]){
+                    System.out.println("NO");
+                    return;
+                }
+                lt++;
+                rt--;
             }
-            if(Character.isAlphabetic(compareArray[i])){
-                compare += compareArray[i];
+            else if(!Character.isAlphabetic(arr[lt])){
+                lt++;
+            }
+            else{
+                rt--;
             }
         }
-
-        if(base.equals(compare)){
-            System.out.println("YES");
-        }
-        else{
-            System.out.println("NO");
-        }
+        System.out.println("YES");
     }
 
 }
