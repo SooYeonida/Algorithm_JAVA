@@ -20,8 +20,7 @@
 |1회| 2021.07.04 - 2021.09.07|
 |2회| 2021.09.07 ~|
 
-
-### 📗 Programmers 코딩테스트 고득점 Kit 📗
+### 📙 Programmers 코딩테스트 고득점 Kit 📙
 | 목차| 문제수 | 상태
 |:------:|:---------:|:---------:|
 | [Hash](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%ED%95%B4%EC%8B%9C)   |  4  |![status][Doing]|
@@ -35,6 +34,15 @@
 | Binary Search |  2||
 | Graph |  3||
 
+### 📗 Programmers SQL 고득점 Kit 📗
+| 목차| 문제수 | 상태
+|:------:|:---------:|:---------:|
+| [SELECT](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/SELECT)   |  7  |![status][Complete]|
+| [SUM,MAX,MIN](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/SUM%2CMAX%2CMIN) |  4  |![status][Complete]|
+| [GROUP BY](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/GROUP%20BY)   |  4  |![status][Complete]|
+| [IS NULL](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/IS%20NULL) |  3|![status][Complete]|
+| [JOIN](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/JOIN) |  4|![status][Complete]|
+| [String,Date](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/String%2CDate) |  5|![status][Complete]|
 
 
 [Complete]: https://img.shields.io/static/v1?label=&message=Complete&color=B6E6FC
