@@ -5,37 +5,24 @@ import java.util.Scanner;
 public class 암호 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int num = in.nextInt();
-        String code = in.next();
-        String decode = "";
+         Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+
+        String str = in.next();
         String answer = "";
-
-        for(int i=0;i<num;i++){
-            for(int j=i*7;j<7*i+7;j++){
-                if(code.charAt(j) == '#'){
-                    decode += 1;
-                }
-                else{
-                    decode += 0;
-                }
+        for(int i= 0;i<n;i++){
+            String pwd = str.substring(7*i,7*i+7);
+            String binary = "";
+            for(int j=0;j<pwd.length();j++){
+                if(pwd.charAt(j)=='#') binary+='1';
+                else binary+='0';
             }
-            int n =Integer.parseInt(decode,2); //2진수를 10진수로 변환
-            decode = "";
-            answer += String.valueOf(Character.toChars(n));
+            int stringToDecimal = Integer.parseInt(binary,2);
+            //2진수 문자열을 10진수로 변환.
+            answer += (char)stringToDecimal;
+            //Character.toChars(stringToDecimal);도 됨. 
         }
-
         System.out.println(answer);
-        //Integer.parseInt에서 NumberFormatException -> 문자열을 숫자데이터 유형으로 변환하려고 할때 발생
-
-    //간단한 답
-//        for(int i = 0;i<num;i++){
-//            String tmp = code.substring(0,7).replace('#','1').replace('*','0');
-//            int number = Integer.parseInt(tmp,2);
-//            answer += (char)number;
-//            code = code.substring(7);
-//        }
     }
-
 
 }
