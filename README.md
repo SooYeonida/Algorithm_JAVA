@@ -44,6 +44,10 @@
 | [JOIN](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/JOIN) |  4|![status][Complete]|
 | [String,Date](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%20SQL/String%2CDate) |  5|![status][Complete]|
 
+### 📕 BOJ 삼성 SW 역량 테스트 기출 문제 📕 
+| 문제수 | 상태
+|:---------:|:---------:|
+| 41  |![status][Doing]|
 
 [Complete]: https://img.shields.io/static/v1?label=&message=Complete&color=B6E6FC
 [Doing]: https://img.shields.io/static/v1?label=&message=Doing&color=FFA8EA
