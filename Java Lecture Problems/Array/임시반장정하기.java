@@ -5,52 +5,54 @@ import java.util.Scanner;
 public class 임시반장정하기 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[][] array = new int[n][5];
-        int[] chart = new int[n];
-
+        int n = in.nextInt(); //학생수
+        int[][] student = new int[n][5];
         for(int i=0;i<n;i++){
             for(int j=0;j<5;j++){
-                array[i][j] = in.nextInt();
+                student[i][j] = in.nextInt();
             }
         }
 
-//        int index = 0;
-//        while(index<n) {
-//            for (int i = 0; i < 5; i++) {
-//                int target = array[index][i];
-//                for (int j = 0; j < n; j++) {
-//                    if(target == array[j][i]){
-//                        chart[index] ++;
-//                    }
-//                }
-//            }
-//            index++;
-//        }
-//         오답이 나온 이유 -> 같은반이였던 횟수가 아니라 학생 수를 세는건데
-//         chart[index]++해서 횟수를 세고 있었음.
-//        세로로 비교하는게 아니라 가로로 비교해서 같은 학생에 대해서 두번세는걸 방지하기 위해 break걸어줘야함.
-
-        int answer = 0;
-        int max = Integer.MIN_VALUE;
-
-        for(int i=0;i<n;i++){
-            int cnt = 0;
-            for(int j=0;j<n;j++){
-                for(int k=0;k<5;k++){
-                    if(array[i][k]==array[j][k]){
-                        cnt++;
-                        break;
+        ArrayList<Student> list = new ArrayList<>();
+        for(int k=0;k<n;k++) {
+            int count = 0; //같은 반이었던 학생 수
+            ArrayList<Integer> check = new ArrayList<>();
+            //학생별
+            for (int i = 0; i < 5; i++) {
+                //학년
+                int classNum = student[k][i];
+                for (int j = 0; j < n; j++) {
+                    if (j != k) {
+                        if(student[j][i] == classNum & !check.contains(j)) {
+                            check.add(j);
+                            count++;
+                        }
                     }
                 }
             }
-            if(cnt>max){
-                max=cnt;
-                answer=i;
-            }
+            list.add(new Student(k+1,count));
         }
 
-        System.out.println(answer+1);
+        Collections.sort(list);
+        System.out.println(list.get(0).index);
+    }
+
+    static class Student implements Comparable<Student>{
+        @Override
+        public int compareTo(Student o){
+            if(o.count==this.count){
+                return this.index-o.index;
+            }
+            return o.count - this.count;
+        }
+
+        int index;
+        int count;
+
+        public Student(int index, int count) {
+            this.index = index;
+            this.count = count;
+        }
     }
 }
 
