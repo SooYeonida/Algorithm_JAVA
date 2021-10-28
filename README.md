@@ -24,9 +24,9 @@
 | 목차| 문제수 | 상태
 |:------:|:---------:|:---------:|
 | [Hash](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%ED%95%B4%EC%8B%9C)   |  4  |![status][Doing]|
-| [Stack, Queue](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%EC%8A%A4%ED%83%9D_%ED%81%90) |  4  |![status][Doing]|
+| [Stack, Queue](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%EC%8A%A4%ED%83%9D_%ED%81%90) |  4  |![status][Complete]|
 | [Heap](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%ED%9E%99)   |  3  |![status][Doing]|
-| [Sorting](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%EC%A0%95%EB%A0%AC) |  3|![status][Doing]|
+| [Sorting](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%EC%A0%95%EB%A0%AC) |  3|![status][Complete]|
 | [Brute-Force](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89) |  3|![status][Doing]|
 | [Greedy](https://github.com/SooYeonida/Algorithm_JAVA/tree/master/Programmers/%ED%83%90%EC%9A%95%EB%B2%95) |  6|![status][Doing]|
 | Dynamic Programming |  4||
